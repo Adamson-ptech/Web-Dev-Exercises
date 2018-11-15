@@ -1,0 +1,64 @@
+Web Dev exercise: Version Control
+
+Objective: Gain experience using a collaborative version control repository for html code.
+
+Overview: Version control is one of the most fundamental software engineering concepts, providing a history of changes 
+that are made and accountability for who made the changes. A version control server also serves as a storage mechanism that 
+can alleviate the need for local backups for some of your files. We will use GitHub as an example of a version control
+system that is used by many professional organizations and open source projects. A GitHub account can serve as part of
+a professional portfolio that hiring companies use to evaluate job candidates.
+
+
+Part A - setup
+--------------
+* Go to https://github.com/, click Sign up, and create a free account. (Be professional when choosing a username.)
+* Check your email and confirm your email address.
+* Install the "GitHub Desktop" application from https://desktop.github.com/.
+* Start GitHub Desktop and click "Sign into GitHub.com". Log in using your credentials.
+* In GitHub Desktop, clone the repo:
+  - Click File > Clone Repository
+  - Select "URL", enter "https://github.com/Adamson-ptech/webdev2018"
+  - For Local path, choose your student folder (H:\) if available, otherwise select a place under your Users folder on the C: drive.
+* Tell a mentor your GitHub username so they can give you permission to push to the repo.
+
+Mentor:
+
+* Log in to GitHub.com using your account that has admin rights for the Adamson-ptech organization.
+* Go to https://github.com/Adamson-ptech.
+* Click "webdev2018team", then "Members", then "Add a member".
+* Enter the username, making sure it matches (there may be many similar usernames), then click "Invite" and "Add...".
+
+Student:
+
+* Go to https://github.com/orgs/Adamson-ptech/ and click "View invitation" (or click the link from your invitation email).
+* Click "Join Adamson-ptech".
+
+
+Part B - create content
+-----------------------
+
+This assumes that Eclipse Neon and the Eclipse Web Developer Tools are already installed.
+
+* Start Eclipse, then close the Welcome pane if necessary.
+* Use the web perspective: Click Window > Perspective > Open Perspective > Other > Show all > Web > OK > OK
+* Click File > Open Projects from File System. Navigate to the "webdev2018" directory where you cloned it - select it and click "OK". Click "Finish".
+* In Package Explorer, click the arrow to the left of "webdev2018" to expand it. 
+* Click the arrow to expand "WebContent".
+* Right-click the directory for your class time and select New > Folder. Use your first name and last initial to name it.
+* Add a file named index.html to your folder.
+* Think of a potential name for an online business you might open. Put this name on the html page and save it.
+
+(Alternative: You can use any text editor to create the html file instead.) 
+
+
+Part C - push to the repo
+-------------------------
+
+* Open GitHub Desktop and observe that it detected your new html file.
+* On the lower left corner of the screen, above "Commit to master" and above the "Description field", type a short commit message about the new file, then click the "Commit to..." button.
+* Push the change to the server.
+* Go to https://github.com/Adamson-ptech/webdev2018 and find the new file you added.
+* Add more content to your html file or add a style sheet.
+* Commit the changes using GitHub Desktop and push the changes to the server again.
+
+Mentors should occasionally show the current state of everyone's contribution to the repo on GitHub.com using the large TV.
