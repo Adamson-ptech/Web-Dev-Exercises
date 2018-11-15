@@ -19,14 +19,14 @@ Part A - setup
   - Click File > Clone Repository
   - Select "URL", enter "https://github.com/Adamson-ptech/webdev2018"
   - For Local path, choose your student folder (H:\) if available, otherwise select a place under your Users folder on the C: drive.
-* Tell a mentor your GitHub username so they can give you permission to push to the repo.
+* Go to https://github.com/orgs/Adamson-ptech/teams/webdev2018team/members and click "Request to join".
 
 Mentor:
 
 * Log in to GitHub.com using your account that has admin rights for the Adamson-ptech organization.
 * Go to https://github.com/Adamson-ptech.
-* Click "webdev2018team", then "Members", then "Add a member".
-* Enter the username, making sure it matches (there may be many similar usernames), then click "Invite" and "Add...".
+* Click "webdev2018team", then "Members", or reload the page if you're already there.
+* Click "<x> pending members" and click "Approve" for each.
 
 Student:
 
