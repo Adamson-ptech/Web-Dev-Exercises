@@ -13,7 +13,7 @@ Part A - setup
 --------------
 * Go to https://github.com/, click Sign up, and create a free account. (Be professional when choosing a username.)
 * Check your email and confirm your email address.
-* Install the "GitHub Desktop" application from https://desktop.github.com/.
+* If not already installed, install the "GitHub Desktop" application from https://desktop.github.com/.
 * Start GitHub Desktop and click "Sign into GitHub.com". Log in using your credentials.
 * In GitHub Desktop, clone the repo:
   - Click File > Clone Repository
