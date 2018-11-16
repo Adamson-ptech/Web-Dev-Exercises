@@ -1,0 +1,45 @@
+
+Exercise: Build the structure for a personal web site using Eclipse.
+
+Objectives: 
+  - Gain exposure to a common Integrated Development Environment.
+  - Learn about a file structure for organizing web content.
+  - Begin a personal web site that will be used for future exercises.
+
+* Note that "IDE" stands for (Integrated Development Environment). 
+
+* Install Eclipse using the DISD Software Center if it's not already installed on your PC. Eclipse is one of the most popular IDEs.
+
+* Start Eclipse and create a workspace folder on your network drive. This allows you to access your files even if you use a different PC in the lab.
+
+* Configure Eclipse for web development 
+  - Click Help > Install New Software.
+  - Next to "Work With", type "Neon" and select "http://download.eclipse.org/releases/neon".
+  - Wait for the list of components to download where it says "Pending".
+  - Click the arrow next to "Web, XML, Java EE and OSGi Enterprise Development".
+  - Select these 4 items: "Eclipse Java EE Developer Tools", "Eclipse Java Web Developer Tools", 
+    "Eclipse Web Developer Tools", and Eclipse XML Editors and Tools". 
+  - Click "Finish" and accept the license agreement.
+  - Clic Yes to restart Eclipse.
+
+Then:
+  - From the menu bar, click Window > Perspective > Open Perspective > Other... > Show all > Web
+  - Click OK to enable the Web Development activity.
+
+* Create a new project
+  - Click File > New > Project > Web > Static Web Project > Next.
+  - Enter a name for your project and click "Finish".
+  - Open it in the Web Perspective when prompted.
+
+* Under the WebContent folder, create a new HTML file named "index.html". A basic web page structure is automatically added to the file.
+
+* Under WebContent, create folders named "css" and "images".
+
+* In the "css" directory, create a CSS file named "styles.css". (Right-click on the "css" folder, select New > Other > Web > CSS File)
+
+* In index.html in the HEAD section, add a link to your CSS file:
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+* Start to build your resume in the "index.html" file. Put all style information in "styles.css".
+
+* To view your page, save your files, then: right-click on "index.html" in Project Explorer > Open With > Web Browser. Click Refresh to update it.
