@@ -1,0 +1,50 @@
+Using an ordered sequence of program statements
+
+Instructions: Add commands to the Cat to make the acceptance test and all unit tests say "Pass!" when you run the program. You may look at the commands for all the sprites, but only modify the commands for the Cat and new sprites you add, at least until you have completed the exercise. 
+
+Start by going to https://scratch.mit.edu/projects/224529344/ - log in and remix the project.
+
+1) Click on the Cat in the section at the bottom labeled "Sprites" and find the "when ... clicked" block. You will attach your commands blocks under this.
+2) Make sure the cat is in the middle of the screen at coordinates 0,0.
+3) From the "Events" category, add the command "broadcast 'cat stopped' and wait". 
+4) Go to where Butterfly1 is by using a command block from the "Motion" category. 
+5) From the "Events" category, add the command "broadcast 'cat stopped' and wait". Run the program by clicking the green flag at the top. Unit test 1 will show a talk balloon saying "Pass" and make a sound if everything is done correctly.
+6) Add commands to go to where Butterfly2 is and "broadcast 'cat stopped' and wait" again. Run the program - unit test 2 should say "Pass".
+7) Add commands to go to where Butterfly3 is and "broadcast 'cat stopped' and wait" again. Run the program - unit test 3 should say "Pass".
+
+If you do all of this correctly, the acceptance test sprite will raise her right hand, say "Pass!", and make a sound. 
+
+Additional thoughts: 
+
+1) The acceptance test might not pass if you run the program more than once. Where is a unit test missing that could have found this? Add the missing test by duplicating an existing unit test and modifying it. Add code to the Cat to make sure it always passes when you run the program.
+
+ - Add a unit test that checks for the Cat to be at coordinates 0, 0. Then add code to the Cat to go to 0, 0 first, and broadcast the 'cat stopped' message.
+
+2) The broadcast messages are required for the tests to work. It's not ideal to have to add code to the Cat just to make the tests work. Scratch doesn't have good support for unit testing, so this is a workaround.
+
+ - It's often worthwhile to modify production code to make it more testable. Ideally, the exact same code will work well both in production and when being unit tested. Adding code only to support the tests but that doesn't have any use in production isn't great, but is sometimes required when we don't have a better option.
+
+3) What happens if you add extra steps to the Cat - will the tests still pass?
+
+ - As long as you don't insert any moves in between the existing moves and sending the 'cat stopped' messages, they will not affect the tests.
+
+4) How can you make all the unit tests pass but still not pass the acceptance test?
+
+ - If the Cat makes the moves in the wrong order, the acceptance test will not pass, even though the unit tests all saw that the Cat was in each location at some point in time. Also, if you don't have code to move to 0, 0 at the start, the acceptance test will not pass.
+
+5) After your tests all pass, what happens if you move one of the butterflies? Can you make the code in the Cat work no matter where the butterflies are?
+
+ - You have several different commands to choose from to move a sprite. If you use a command that specifies the current x and y coordinates of one of the butterflies, the code will work now, but it won't work after the butterfly is moved to new coordinates. Though you could update your code to use the new coordinates, you just have to update the code again if the butterfly moves again. It is much better to use something like "go to Butterfly1" (click the down arrow to choose the sprite to go to) or in the "goto x: y:" command you can use "x position of Butterfly1" and "y position of Butterfly1" from the "Sensing" section for the two coordinates.
+
+
+Tips for getting started in Scratch:
+
+* You will need to have Adobe Flash installed and enabled in your browser in order to program in Scratch. Flash does not work on mobile devices.
+* Click "See inside" to see the code that you need to modify.
+* Before you click "See inside", copy these instructions (e.g., into a text file) so you can still see them.
+* It's possible to download a Scratch project and work on it without an account, but it's much easier to create an account by clicking "Join Scratch". After creating your account, go back to the project page for this exercise, click "See inside", then click "Remix" to save a copy in your account. You may choose to click "Share" so that others can see your code and help you with it. 
+* Click a sprite at the bottom of the screen under "Sprites" to see the code for that sprite. Each sprite and the stage have their own separate commands.
+* Command blocks should start with a "hat" block that's rounded on the top - this is the event that causes the commands to run after you click the green flag to start your program. You may park some command blocks that aren't attached to a hat block, and they will not run unless you click on them.
+* Explore the color-coded command categories on the "Scripts" tab. You can right-click on them to get help for each one.
+* After you have attached command blocks to each other, you can drag them to separate them and rearrange them, or drag them back to the Scripts pane to delete them.
+* You can open the Backpack at the bottom of the screen and drag command blocks there to copy them. Drag them out to paste a copy in another sprite or another project.
