@@ -1,0 +1,38 @@
+We'll learn about string variables, numeric variables, and lists in two separate parts of this exercise.
+
+Start by going to https://scratch.mit.edu/projects/221602771/ - sign in and remix the project.
+
+1. Program the Cat to keep a count of how many times the space bar is pressed. Keep the count in a variable named "counter".
+2. The Cat should say the current count in a talk balloon every time the count increases.
+3. The Cat should broadcast the message "cat done" after these tasks are complete. The Cat acceptance test will pass after the tasks are completed successfully twice.
+4. Program the Duck to ask the user what their name is after the user clicks on the Duck. Store the name in a variable called "name".
+5. After the user enters their name, the Duck should respond "Hello, " followed by the name they entered. Save the entire response in a variable called "response."
+6. Maintain a history of all of the Duck's responses by adding each response to a list named "responses".
+7. When these tasks are complete, the Duck should broadcast the message "duck done".
+
+Additional thoughts:
+
+1) Note that we can't test the talk balloons because we can't see what's inside. We work around this by saving the text in a variable that the test can see.
+2) If the Duck's response doesn't exactly match the required spacing and punctuation, the test will not pass. Is it important to test the full text of the response? Note that the test has the same code that the Duck has to build the response. We could design a better test if we could automate the user input.
+3) If the test for the Cat only looked for the count to be updated once, what sort of bug would it not be able to detect?
+4) Like in Exercise 1, we have to broadcast messages to make the tests work. That's because Scratch wasn't designed to support testing. In later exercises, you'll see a better test framework.
+
+
+In this exercise, there are several new command blocks you’ll need to use.
+
+Cat-
+
+* “When space key pressed” (Events tab) - you already have this event; it will run commands every time you press the space bar
+* change [variable] by [amount] (Data tab) - use this to add 1 to the "counter" variable; you'll choose the variable name from a drop-down list
+* say [variable] (Looks tab) - use this to make a talk balloon that shows the number currently stored in the "counter" variable; here you'll drag the "counter" variable from the Data tab into the box in the "say" command
+
+Duck-
+
+* “When this sprite clicked” (Events tab) - you already have this event; it will run commands every time you click the Duck
+* ask [question] and wait (Sensing tab) - you already have this command; it will put a box on the screen for the user to type something, and it waits until the user presses Enter or clicks the check mark
+* “answer” pseudo variable (Sensing tab) - use the blue "answer" block like a variable to get the text that the user entered in the box when you store it in the "name" variable
+* join [string1] [string2] (Operators tab) - use this operator to create a new string out of two other strings; in this case you want to join "Hello, " with the contents of the "name" variable to build the value that you will set in the "response" variable
+* set [variable] to [value] (Data tab) - use one of these to set the "name" variable, and another to set the "response" variable
+* say [variable] (Looks tab) - use this the same way you did for the Cat and make sure to have it say what the instructions say it should
+* add [variable] to [list] - use this to add a value to the end of a list, you already have the value in the "response" variable; choose the "responses" list from the drop-down list
+* show variable and list values - if you want to watch what is happening with your variables and lists, go to the Data tab, find the name of the variable (in orange) or list (in red below all the variable blocks) and check the box next to it; this will show a box that displays its value
