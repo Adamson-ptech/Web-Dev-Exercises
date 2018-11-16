@@ -1,0 +1,29 @@
+Goal - assemble a basic Raspberry Pi configuration for use in future exercises. 
+
+Tasks -
+
+1) Acquire sufficient parts from the storage closet before each class. For each student: 
+	* 1 Raspberry Pi kit with power supply, HDMI cable, and micro-SD card
+	* 1 zipper carrying case
+
+2) Begin by recapping the previous session with the students.
+
+3) Give an overview of how to assemble the Pi’s. Explain that each student will be using the same devices they assemble in future exercises (incentive to not mess them up!).
+
+4) Hand out supplies, labeling each carrying case with the student’s name and class start time. 
+
+5) Assist students with completing assembly. Beware of static risks. 
+   - Install the micro SD card in the Pi
+   - Put the PI board in the small enclosure that comes with it
+   - Plug in the HDMI cable to the Pi and the HDMI input port on the back of the DISD Dell PC (note there is also an HDMI port on the Dell labeled as output)
+   - Turn on the PC and use the third button down on the right side to switch to HDMI input
+   - Gently remove the mouse, keyboard, and Ethernet cables from the PC and plug them in to the Pi.
+   - Plug in power using the available outlet at the back of the desktop.
+   - Complete the software installation using the default image that's available
+
+6) When the Pi’s are installed and booted up (as time is available):
+    - Modify the screen resolution to the maximum and reboot.
+    - Open a terminal, run the command "python -m http.server”. Determine the IP address of the device and try to access the web server at port 8000 from another Pi. Ask if they have any security concerns with this.
+    - Explore other software installed on the device or try running programs previously developed in Scratch (there will be no sound unless they have earbuds to use).
+
+7) Five minutes before classes finish, power down the devices, pack everything in its carrying case, and turn it back in. PLEASE KEEP ALL OF THE HARDWARE AND STORE IT IN THE CLOSET. Plug the cables back in to the PC and switch the video back to “PC”.
