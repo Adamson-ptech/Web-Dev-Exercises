@@ -1,0 +1,10 @@
+In response to a question one of the students asked (“Do we have to have the doctype at the top of our html?“) - 
+
+• Determine the smallest html file that correctly displays “Hello, world!” (and nothing else) in a browser. It doesn’t have to be valid html. Test it in more than one browser if possible. [answer: only the bare text “Hello, world!” is needed]
+• Using an html validator like https://validator.w3.org or https://www.freeformatter.com/html-validator.html, make the smallest html file that displays “Hello, world!” and has no problems found by the validator.
+• Optional: take the standards-compliant html from step 2 and see how many ways you can mangle it and still have the browser render it properly. [In most cases, the text still displays fine. Sometimes the text will disappear, and sometimes extra punctuation will be seen.]
+• Discuss Postel’s law (the Robustness Principle) - “Be conservative in what you send, be liberal in what you accept.”
+• Take the html source from the home page of a popular web site, and run it through the validator (or, e.g., https://www.dallasisd.org/). Are the results surprising? (Note: 99 errors found on https://www.aa.com/homePage.do.)
+• Repeat the last step as desired.
+
+The answer to the first question is - you don’t have to, but you should consider whether it’s helpful for your html to comply with the standards.
