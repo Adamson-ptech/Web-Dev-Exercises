@@ -1,0 +1,13 @@
+Objective: Run a simple web server on a device and view a web page using the http protocol 
+
+1) Obtain the Raspberry Pi kit assembled the previous week. Connect it to power, monitor, mouse and keyboard.
+2) Use the text editor to create a simple web page named index.html including the student’s name in the title and a positive statement about them in the body of the page.
+3) Use a browser to view the web page using a file URL.
+4) Connect to Ethernet if available at the desk, otherwise a mentor will help connect the device to wifi.
+5) Open a terminal and change the current working directory to the directory where the web page is saved. Start a web server using a Python one-liner in a terminal:
+	  python -m SimpleHTTPServer
+6) View the same web page using http from the local device.
+7) Determine your device’s IP address and share it with another student. View each other’s pages in a browser.
+8) Bonus: if extra time is available, add hyperlinks to the web page to create a web ring with two or more other devices.
+
+For students who have not completed setting up their Raspberry Pi - have them sit on one side of the room and one mentor will help them complete it. They can start the exercise if time allows.
