@@ -1,0 +1,27 @@
+This project will introduce you to two important programming fundamentals - the loop and the conditional statement. The goal is to program the cat to eat all of the cheesy puffs, using a "repeat" loop to do all the repetitive actions and an "if" conditional statement to avoid eating rocks.
+
+All of the command blocks you add will be under the "When I receive go" event for the Cat. Start by going to https://scratch.mit.edu/projects/248481589/ - sign in and remix the project.
+
+1. Add two blocks to go to the first bowl of cheesy puffs - "change x by '60'" and "change y by '50'" (from the "Motion" section).
+
+2. After that, add a block to "broadcast 'eat' and wait" (from the "Events" tab). Run the program using the dark green flag button and see that the first bowl of cheesy puffs disappears.
+
+3. Add a "repeat" loop around all three of the commands that are already there - the commands should all be inside the loop. Change the number in the loop to "5". This will cause the commands to repeat 5 times. Run the program - the Cat should eat all of the cheesy puffs and then say "Win!".
+
+4. Let's make the game a bit more challenging. Under the "When [flag] is clicked" command stack for the Cat, change the number in the "set 'rock mode?' to '0'" block so it says "set 'rock mode?' to '1'" instead.
+
+5. Run the program and see that the game stops when the Cat tries to eat a rock.
+
+6. Add code to check for rocks - under "When I receive go", add the command "broadcast 'rock check' and wait" (from the "Events" section) above the "broadcast 'eat' and wait" command that's already there. This will set the variable "rock collision?" that you will reference below.
+
+7. Add  an "if < > then" command block (from the "Control" section) around the "broadcast 'eat' and wait" command - only the one broadcast command should be inside the "if < > then".
+
+8. Between "if" and "then", add a green " = " block (from the "Operators" section).
+
+9. In the blank spot on the left side of the "=", put the variable "rock collision?" (from the "Data" section).
+
+10. In the blank spot on the right side of the "=", type the number "0".
+
+11. Now the program will only send the "eat" message if the Cat is not on a rock. Double-check the order of your commands - all of these should be inside a "repeat 5" block: first change x and change y, then broadcast "rock check" and wait, then the "if ... then" that checks for the "rock collision?" variable to be equal to 0, then inside the "if < > then" block is the broadcast "eat" and wait. Following these is the bottom of the "if < > then" and then the bottom of the "repeat 5".
+
+12. Run the program and make sure the Cat says "Win!". Each time you run the program, the placement of the cheesy puff and rock sprites is randomized.
