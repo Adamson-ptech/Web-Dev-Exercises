@@ -12,8 +12,8 @@ a professional portfolio that hiring companies use to evaluate job candidates.
 Part A - setup
 --------------
 * Go to https://github.com/, click Sign up, and create a free account. (Be professional when choosing a username.)
-* Check your email and confirm your email address.
-* If not already installed, install the "GitHub Desktop" application from https://desktop.github.com/.
+* Check your email and follow the link to confirm your email address (you may need to log in to GitHub again). 
+* Check to see if you have the "GitHub Desktop" application installed on your PC. If not already installed, install it from https://desktop.github.com/.
 * Start GitHub Desktop and click "Sign into GitHub.com". Log in using your credentials.
 * In GitHub Desktop, clone the repo:
   - Click File > Clone Repository
@@ -37,7 +37,9 @@ Student:
 Part B - create content
 -----------------------
 
-This assumes that Eclipse Neon and the Eclipse Web Developer Tools are already installed.
+This assumes that Eclipse Neon and the Eclipse Web Developer Tools are already installed. See Exercise 8 for details.
+
+(Alternative: You can use any text editor to create the html file instead.) 
 
 * Start Eclipse, then close the Welcome pane if necessary.
 * Use the web perspective: Click Window > Perspective > Open Perspective > Other > Show all > Web > OK > OK
@@ -47,8 +49,6 @@ This assumes that Eclipse Neon and the Eclipse Web Developer Tools are already i
 * Right-click the directory for your class time and select New > Folder. Use your first name and last initial to name it.
 * Add a file named index.html to your folder.
 * Think of a potential name for an online business you might open. Put this name on the html page and save it.
-
-(Alternative: You can use any text editor to create the html file instead.) 
 
 
 Part C - push to the repo
