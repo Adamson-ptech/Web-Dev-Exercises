@@ -25,6 +25,7 @@ Mentor:
 
 * Log in to GitHub.com using your account that has admin rights for the Adamson-ptech organization.
 * Go to https://github.com/Adamson-ptech.
+* Click "Teams".
 * Click "webdev2018team", then "Members", then "Add a member".
 * Enter the username, making sure it matches (there may be many similar usernames), then click "Invite" and "Add...".
 
