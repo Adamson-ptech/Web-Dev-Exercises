@@ -57,7 +57,7 @@ Part C - push to the repo
 
 * Open GitHub Desktop and observe that it detected your new html file.
 * On the lower left corner of the screen, above "Commit to master" and above the "Description field", type a short commit message about the new file, then click the "Commit to..." button.
-* Push the change to the server.
+* Click "Push Origin" to push the change to the server. If you get an error saying you need to pull before you push, click Repository > Pull, then try to push again.
 * Go to https://github.com/Adamson-ptech/webdev2018 and find the new file you added.
 * Add more content to your html file or add a style sheet.
 * Commit the changes using GitHub Desktop and push the changes to the server again.
