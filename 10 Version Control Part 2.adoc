@@ -35,7 +35,7 @@ Student:
 Part B - create content
 -----------------------
 
-Now add a folder and an html file in that folder -
+Student:
 
 * Go to the repository in your browser - https://github.com/Adamson-ptech/webdev2018.
 * Click "tables".
@@ -45,9 +45,19 @@ Now add a folder and an html file in that folder -
 * Scroll down to approximately Line 51, to see a block of lines enclosed inside the <tr> tags.  Scroll down to the <td> tag which corresponds to the student's Workstation Number
 * In the <td>  tags following the Workstation number, enter your information  between the <td>Fill me in</td> tags in the following order:
 First Name, Last Name, Business Name
+* Review
 * As a bonus, insert an image tag in the last <td>Fill me in</td> section, in your <tr> block
 * Scroll to the bottom of the page where it says "Commit directly to master branch", and Click the green "Commit" button.
 * If the updates were made correctly there should not be any merge conflicts.  However if there were conflicts then a Pull Request will be required.
 
 
 Congratulations - you have committed a file to GitHub with an HTML table!
+
+Mentor:
+* Review the concepts of GitHub, editing and check-in changes with the class for 5-7 minutes
+* Review the syntax of HTML table for 5-7 minutes
+* Use the below URLs to display the html page onto the class monitor screen, to track progress of commits completed by students
+  - 9:05 - https://github.com/Adamson-ptech/webdev2018/blob/master/tables/09.05_class/tableLesson.html
+  - 10:53 - https://github.com/Adamson-ptech/webdev2018/blob/master/tables/10.53_class/tableLesson.html
+  - 13:55 - https://github.com/Adamson-ptech/webdev2018/blob/master/tables/13.55_class/tableLesson.html
+* If the students end up getting merge conflicts, depending on time available you may choose to demonstrate the option to create a Pull Request and merging their changes
