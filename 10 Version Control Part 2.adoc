@@ -1,0 +1,53 @@
+Web Dev exercise: Version Control - Part 2
+
+Objective: Gain experience using a collaborative version control repository for html code, using working with HTML code
+to format simple tables with built-in styling.
+
+Overview: This is an extension of the previous lesson which introduced the concept of Version Control.  As you will recall
+Version control is one of the  fundamental software engineering concepts, providing a history of changes
+that are made to a given file and provides accountability for who made the changes. A version control server also serves
+as a storage mechanism that can alleviate the need for local backups for some of your files. We will continue to use GitHub
+as an example of a version control system that is used by many professional organizations and open source projects.
+
+In order to practice the GitHub concepts we will use a simple HTML file that introduces the concept of tables and
+shows how to setup the table and add data content into the table cells.
+
+Part A - setup
+--------------
+* Go to https://github.com/, click Sign up, and create a free account. (Be professional when choosing a username.)
+* Check your email and follow the link to confirm your email address (you may need to log in to GitHub again).
+* Tell a mentor your GitHub username so they can give you permission to push to the repo.
+
+Mentor:
+
+* Log in to GitHub.com using your account that has admin rights for the Adamson-ptech organization.
+* Go to https://github.com/Adamson-ptech.
+* Click "Teams".
+* Click "webdev2018team", then "Members", then "Add a member".
+* Enter the username, making sure it matches (there may be many similar usernames), then click "Invite" and "Add...".
+
+Student:
+
+* Go to https://github.com/orgs/Adamson-ptech/ and click "View invitation" (or click the link from your invitation email).
+* Click "Join Adamson-ptech".
+
+
+Part B - create content
+-----------------------
+
+Now add a folder and an html file in that folder -
+
+* Go to the repository in your browser - https://github.com/Adamson-ptech/webdev2018.
+* Click "tables".
+* Click on the folder for your class - "09.05_class", "10.53_class", or "01.55_class".
+* Click on the file "tableLesson.html"
+* The file opens for view in the browser.  Look for the 'Edit' button (pen icon), and click the button to edit the document.
+* Scroll down to approximately Line 51, to see a block of lines enclosed inside the <tr> tags.  Scroll down to the <td> tag which corresponds to the student's Workstation Number
+* In the <td>  tags following the Workstation number, enter your information  between the <td>Fill me in</td> tags in the following order:
+First Name, Last Name, Business Name
+* As a bonus, insert an image tag in the last <td>Fill me in</td> section, in your <tr> block
+* Scroll to the bottom of the page where it says "Commit directly to master branch", and Click the green "Commit" button.
+* If the updates were made correctly there should not be any merge conflicts.  However if there were conflicts then a Pull Request will be required.
+
+
+Congratulations - you have committed a file to GitHub with an HTML table!
