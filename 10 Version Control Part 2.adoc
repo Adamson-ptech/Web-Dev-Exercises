@@ -15,6 +15,7 @@ shows how to setup the table and add data content into the table cells.
 
 Part A - setup
 --------------
+* Students who have completed the steps in the previous class can skip Part A and proceed directly to Part B.
 * Go to https://github.com/, click Sign up, and create a free account. (Be professional when choosing a username.)
 * Check your email and follow the link to confirm your email address (you may need to log in to GitHub again).
 * Tell a mentor your GitHub username so they can give you permission to push to the repo.
@@ -40,12 +41,12 @@ Student:
 
 * Go to the repository in your browser - https://github.com/Adamson-ptech/webdev2018.
 * Click "tables".
-* Click on the folder for your class - "09.05_class", "10.53_class", or "01.55_class".
+* Click on the folder for your class - "09.05_class", "10.53_class", or "13.55_class".
 * Click on the file "tableLesson.html"
 * The file opens for view in the browser.  Look for the 'Edit' button (pen icon), and click the button to edit the document.
 * Scroll down to approximately Line 51, to see a block of lines enclosed inside the <tr> tags.  Scroll down to the <td> tag which corresponds to the student's Workstation Number
 * In the <td>  tags following the Workstation number, enter your information  between the <td>Fill me in</td> tags in the following order:
-First Name, Last Name, Business Name
+First Name, Last Name, Business Name, Business Description
 * Review the HTML syntax and familiarize yourself with how the table is constructed
 * As a bonus, insert an image tag in the last <td>Fill me in</td> section, in your <tr> block
 * Scroll to the bottom of the page where it says "Commit directly to master branch", and Click the green "Commit" button.
@@ -59,8 +60,8 @@ Mentor:
 * Review the concepts of GitHub, editing and check-in changes with the class for 5-7 minutes
 * Review the syntax of HTML table for 5-7 minutes
 * Use the below URLs to display the html page onto the class monitor screen, to track progress of commits completed by students
-  - 09:05 - https://github.com/Adamson-ptech/webdev2018/blob/master/tables/09.05_class/tableLesson.html
-  - 10:53 - https://github.com/Adamson-ptech/webdev2018/blob/master/tables/10.53_class/tableLesson.html
-  - 13:55 - https://github.com/Adamson-ptech/webdev2018/blob/master/tables/13.55_class/tableLesson.html
+  - 09:05 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/09.05_class/tableLesson.html
+  - 10:53 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/10.53_class/tableLesson.html
+  - 13:55 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/13.55_class/tableLesson.html
 
 * If the students end up getting merge conflicts, depending on time available you may choose to demonstrate the option to create a Pull Request and merging their changes
