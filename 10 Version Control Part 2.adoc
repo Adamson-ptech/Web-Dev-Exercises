@@ -49,8 +49,13 @@ Student:
 First Name, Last Name, Business Name, Business Description
 * Review the HTML syntax and familiarize yourself with how the table is constructed
 * As a bonus, insert an image tag in the last <td>Fill me in</td> section, in your <tr> block
-* Scroll to the bottom of the page where it says "Commit directly to master branch", and Click the green "Commit" button.
-* If the updates were made correctly there should not be any merge conflicts.  However if there were conflicts then a Pull Request will be required.
+* Scroll to the bottom of the page, select the option which says  "Create a new branch for this commit and start a pull request".  Enter you a brief description of what was changed, and Click the green "Propose file changes" button.
+* On the next screen, select the green button "Create pull request"
+* If the updates were made correctly there should not be any merge conflicts.  You should now see another green button labeled "Merge Pull Request"
+* On the next screen select the green button "Confirm merge"
+* Wait on your instructor to approve your 'Pull Request'
+* After your request has been approved you will see your changes along with any other changes made by your classmates in the same file
+* To view your file, click on the 'Code'  tab towards the top of the page, navigate to the 'tables' directory and to your class directory. Select the tableLesson.html file to view your changes.
 
 
 Congratulations - you have committed a file to GitHub with an HTML table!
