@@ -64,9 +64,8 @@ Mentor:
 
 * Review the concepts of GitHub, editing and check-in changes with the class for 5-7 minutes
 * Review the syntax of HTML table for 5-7 minutes
+* As students submit their pull requests, please monitor them on the 'Pull Request'  tab and approve the changes.
 * Use the below URLs to display the html page onto the class monitor screen, to track progress of commits completed by students
   - 09:05 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/09.05_class/tableLesson.html
   - 10:53 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/10.53_class/tableLesson.html
   - 13:55 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/13.55_class/tableLesson.html
-
-* If the students end up getting merge conflicts, depending on time available you may choose to demonstrate the option to create a Pull Request and merging their changes
