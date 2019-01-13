@@ -1,0 +1,69 @@
+= Web Dev exercise: HTML Table Exercise
+
+Objective: Embed images and e-mail addresses inside an HTML table and gain experience using a collaborative version control repository, using working with HTML code
+to format simple tables with built-in styling.
+
+Overview: This is an extension of the previous two lessons - Lesson 9 introduced the concept of Version Control, while Lesson  10 introduced basic html
+table syntax, in addition to requiring the students to check-in their changes into the GitHub version control system.
+Please refer to Lessons 9 for instructions to setup and access GitHub if required.
+
+
+== Create content
+
+=== Student:
+
+* Go to the repository in your browser - https://github.com/Adamson-ptech/webdev2018.
+* Click "tables-part-2".
+* Click on the folder corresponding to your class - "09.05_class", "10.53_class", or "13.55_class".
+* Click on the file "tableLesson.html"
+* The file opens for view in the browser.  Look for the 'Edit' button (pen icon), and click the button to edit the document.
+* Scroll down to approximately Line 51, to see a block of lines enclosed inside the <tr> tags.  Scroll down to the <td> tag which corresponds to the student's Workstation Number
+* The table columns are ordered as follows and can be seen in the block with <th> tags -
+. Workstation ID
+. First Name
+. Last Name
+. Business Name
+. Business Description
+. Business E-mail
+. Business Image
+
+* In the <td>  tags following the Workstation number, enter your information  between the <td>Fill me in</td> tags in the following order:
+Your First Name, Your Last Name, Your Business' Name, Your Business' Description.  These will be entered as plain text
+* To enter the business e-mail, make up a fictitious e-mail ID you would like to use (we will not be sending e-mails to it, so don't worry if it does not exist).
+Use the HTML <a> href tag to enter the e-mail address in the table.  The syntax for the <a> tag is <a href=URL>.  As the URL needs to refer to an e-mail it will have to be
+explicitly stated by including the Uniform Resource Identifier scheme 'mailto:'.  For example <a href="mailto:someone@yoursite.com">Email Us</a>
+* To enter the Business Image:
+. open a new tab in your browser and browse to "https://www.pexels.com/collections/business-life-d66hism/".  Browse the images and select one select one you like.  Right click on the image and select option "Copy Image address"
+, if you are using the Chrome browser
+. Move back to the tab on which you were editing the HTML table.  In the 'Business Image' cell you will reference the image by it's URL.  In order to do so, we will use the
+HTML <img> tag, which has the following syntax - <img src="smiley.gif" alt="Smiley face" height="150" width="150">.  Note the <img> tag does not have a corresponding close tag
+(</img>) in HTML syntax.
+. In the src attribute, paste the complete image URL.  Make sure that the file's extension (.jpeg, .gif, .png etc) are included in the URL.
+* Scroll to the bottom of the page to the box titled "Commit Changes". Enter a short description of your changes in the second box.  Select the radio button which reads,
+ 'Create a new branch for this commit and start a pull request'. Leave the branch name as defaulted by GitHub.  Click the green 'Propose file change' button.  On the next page
+ you should see the message 'Able to merge. These branches can be automatically merged'.  Scroll down to the 'Create pull request' button and click it.  On the next page
+ you should see the message 'This branch has no conflicts with the base branch.  Merging can be performed automatically.'.  Click on the 'Merge pull request'.  The button will
+ change to read 'Confirm merge'. Click it again.  You should now see the message 'Pull request successfully merged and closed'.  This means that your changes were successfully merged
+ along with the other changes committed by your classmates.
+* If the updates were made to the same row by more than one student, then the second and subsequent attempts will not be able to merge automatically and will need be complete
+what is called a 'manual merge'.  Seek assistance from your mentor if you run into this scenario.
+* Congratulations!  Your changes have now been committed to GitHub.
+* Use the below URLs to display the html page onto the class monitor screen, to track progress of commits completed by students
+  - 09:05 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/09.05_class/tableLesson.html
+  - 10:53 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/10.53_class/tableLesson.html
+  - 13:55 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/13.55_class/tableLesson.html
+* Feel free to edit your information a couple of more times, and commit your changes using a pull request.  Use the above URLs to view your updates along with those made your your
+classmates.
+
+=== Mentor:
+
+* Review with class for 5 minutes, the concepts of GitHub (source code control, need to pull requests, how pull requests are used in real life).
+* Review the syntax of HTML table for 5 minutes covering the <table>, <tr>, <th>, and <td> elements
+* Review the embedded styling and explain the concept of CSS which removes styling from HTML file into its own styling file
+* Review the HTML <a> and <img>  tags syntax with the class
+* Use the below URLs to display the html page onto the class monitor screen, to track progress of commits completed by students
+  - 09:05 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/09.05_class/tableLesson.html
+  - 10:53 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/10.53_class/tableLesson.html
+  - 13:55 - http://htmlpreview.github.io/?https://github.com/Adamson-ptech/webdev2018/blob/master/tables/13.55_class/tableLesson.html
+
+* If the students end up getting merge conflicts, depending on the available time you may choose to demonstrate merging the changes
