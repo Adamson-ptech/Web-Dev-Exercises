@@ -39,12 +39,14 @@ explicitly stated by including the Uniform Resource Identifier scheme 'mailto:'.
 HTML <img> tag, which has the following syntax - <img src="smiley.gif" alt="Smiley face" height="150" width="150">.  Note the <img> tag does not have a corresponding close tag
 (</img>) in HTML syntax.
 . In the src attribute, paste the complete image URL.  Make sure that the file's extension (.jpeg, .gif, .png etc) are included in the URL.
-* Scroll to the bottom of the page to the box titled "Commit Changes". Enter a short description of your changes in the second box.  Select the radio button which reads,
- 'Create a new branch for this commit and start a pull request'. Leave the branch name as defaulted by GitHub.  Click the green 'Propose file change' button.  On the next page
- you should see the message 'Able to merge. These branches can be automatically merged'.  Scroll down to the 'Create pull request' button and click it.  On the next page
- you should see the message 'This branch has no conflicts with the base branch.  Merging can be performed automatically.'.  Click on the 'Merge pull request'.  The button will
- change to read 'Confirm merge'. Click it again.  You should now see the message 'Pull request successfully merged and closed'.  This means that your changes were successfully merged
+* Scroll to the bottom of the page to the box titled `Commit Changes`. Enter a short description of your changes in the second box.  Select the radio button which reads,
+ `Create a new branch for this commit and start a pull request`. Leave the branch name as defaulted by GitHub.  Click the green 'Propose file change' button.  On the next page
+ you should see the message `Able to merge. These branches can be automatically merged`.  Scroll down to the `Create pull request` button and click it.  On the next page
+ you should see the message `This branch has no conflicts with the base branch.  Merging can be performed automatically`.  Click on the `Merge pull request`.  The button will
+ change to read `Confirm merge`. Click it again.  You should now see the message `Pull request successfully merged and closed`.  Click on the `Delete Branch` button. 
+ This means that your changes were successfully merged
  along with the other changes committed by your classmates.
+ * You should now see the message 'Pull request successfully merged and closed'
 * If the updates were made to the same row by more than one student, then the second and subsequent attempts will not be able to merge automatically and will need be complete
 what is called a 'manual merge'.  Seek assistance from your mentor if you run into this scenario.
 * Congratulations!  Your changes have now been committed to GitHub.
